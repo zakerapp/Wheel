@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD15F0631FC6BFCE008F8DB6 /* WHLDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3E89D61FC5A1D700598212 /* WHLDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3E88851FC54D0100598212 /* Wheel.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3E88831FC54D0100598212 /* Wheel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3E88BE1FC54D5500598212 /* WHLAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3E888E1FC54D4400598212 /* WHLAccessibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3E88DF1FC54D5500598212 /* WHLAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3E88AF1FC54D4C00598212 /* WHLAccessibility.m */; };
+		AD3E89A71FC59E2F00598212 /* WHLApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3E89791FC59E2900598212 /* WHLApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3E89AC1FC59E2F00598212 /* WHLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3E897E1FC59E2900598212 /* WHLCache.m */; };
+		AD3E89B51FC59E2F00598212 /* WHLColor.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3E89871FC59E2A00598212 /* WHLColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3E89B61FC59E2F00598212 /* WHLArray.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3E89881FC59E2A00598212 /* WHLArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3E89BA1FC59E2F00598212 /* WHLData.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3E898C1FC59E2B00598212 /* WHLData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3E89BC1FC59E2F00598212 /* WHLApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3E898E1FC59E2B00598212 /* WHLApplication.m */; };
+		AD3E89C01FC59E2F00598212 /* WHLData.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3E89921FC59E2C00598212 /* WHLData.m */; };
+		AD3E89C51FC59E2F00598212 /* WHLCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3E89971FC59E2D00598212 /* WHLCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3E89CD1FC59E2F00598212 /* WHLArray.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3E899F1FC59E2E00598212 /* WHLArray.m */; };
+		AD3E89CE1FC59E2F00598212 /* WHLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3E89A01FC59E2E00598212 /* WHLColor.m */; };
+		AD3E89D31FC5A13400598212 /* WHLGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3E89D01FC5A13300598212 /* WHLGeometry.m */; };
+		AD3E89D51FC5A13400598212 /* WHLGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3E89D21FC5A13400598212 /* WHLGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD53CD0020562CD600430026 /* WHLMaths.h in Headers */ = {isa = PBXBuildFile; fileRef = AD53CCFC20562CD600430026 /* WHLMaths.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD53CD0120562CD600430026 /* WHLMaths.m in Sources */ = {isa = PBXBuildFile; fileRef = AD53CCFD20562CD600430026 /* WHLMaths.m */; };
+		AD53CD232056703F00430026 /* WHLLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = AD53CD212056703F00430026 /* WHLLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD53CD242056703F00430026 /* WHLLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AD53CD222056703F00430026 /* WHLLayoutConstraint.m */; };
+		AD5DF3C01FC670110023B593 /* WHLDate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DF3B81FC670100023B593 /* WHLDate.m */; };
+		AD5DF3C21FC670110023B593 /* WHLError.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5DF3BA1FC670100023B593 /* WHLError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD5DF3C31FC670110023B593 /* WHLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5DF3BB1FC670100023B593 /* WHLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD5DF3C41FC670110023B593 /* WHLDate.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5DF3BC1FC670100023B593 /* WHLDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD5DF3C51FC670110023B593 /* WHLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DF3BD1FC670100023B593 /* WHLDictionary.m */; };
+		AD5DF3C61FC670110023B593 /* WHLError.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DF3BE1FC670100023B593 /* WHLError.m */; };
+		AD5DF3D91FC69BE60023B593 /* WHLInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5DF3C91FC69BE40023B593 /* WHLInvocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD5DF3DA1FC69BE60023B593 /* WHLInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DF3CA1FC69BE40023B593 /* WHLInvocation.m */; };
+		AD5DF3DB1FC69BE60023B593 /* WHLNib.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5DF3CB1FC69BE40023B593 /* WHLNib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD5DF3DC1FC69BE60023B593 /* WHLScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DF3CC1FC69BE40023B593 /* WHLScreen.m */; };
+		AD5DF3DD1FC69BE60023B593 /* WHLView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5DF3CD1FC69BE50023B593 /* WHLView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD5DF3DE1FC69BE60023B593 /* WHLURL.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5DF3CE1FC69BE50023B593 /* WHLURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD5DF3DF1FC69BE60023B593 /* WHLNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DF3CF1FC69BE50023B593 /* WHLNetwork.m */; };
+		AD5DF3E01FC69BE60023B593 /* WHLScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5DF3D01FC69BE50023B593 /* WHLScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD5DF3E11FC69BE60023B593 /* WHLString.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DF3D11FC69BE50023B593 /* WHLString.m */; };
+		AD5DF3E41FC69BE60023B593 /* WHLNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5DF3D41FC69BE50023B593 /* WHLNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD5DF3E51FC69BE60023B593 /* WHLNib.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DF3D51FC69BE60023B593 /* WHLNib.m */; };
+		AD5DF3E61FC69BE60023B593 /* WHLString.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5DF3D61FC69BE60023B593 /* WHLString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD5DF3E71FC69BE60023B593 /* WHLURL.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DF3D71FC69BE60023B593 /* WHLURL.m */; };
+		AD5DF3E81FC69BE60023B593 /* WHLView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DF3D81FC69BE60023B593 /* WHLView.m */; };
+		AD5DF3EB1FC69C210023B593 /* WHLDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5DF3E91FC69C210023B593 /* WHLDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD5DF3EC1FC69C210023B593 /* WHLDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DF3EA1FC69C210023B593 /* WHLDevice.m */; };
+		AD5DF3EF1FC69C5F0023B593 /* WHLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DF3ED1FC69C5F0023B593 /* WHLImage.m */; };
+		AD5DF3F01FC69C5F0023B593 /* WHLImage.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5DF3EE1FC69C5F0023B593 /* WHLImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD5DF3F41FC6A1F00023B593 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5DF3F21FC6A1F00023B593 /* Reachability.h */; };
+		AD5DF3F51FC6A1F00023B593 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DF3F31FC6A1F00023B593 /* Reachability.m */; };
+		AD5DF3FE1FC6A3630023B593 /* MCSMKeychainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5DF3FC1FC6A3620023B593 /* MCSMKeychainItem.m */; };
+		AD5DF3FF1FC6A3630023B593 /* MCSMKeychainItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5DF3FD1FC6A3620023B593 /* MCSMKeychainItem.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD3E88801FC54D0100598212 /* Wheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Wheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3E88831FC54D0100598212 /* Wheel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wheel.h; sourceTree = "<group>"; };
+		AD3E88841FC54D0100598212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3E888E1FC54D4400598212 /* WHLAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLAccessibility.h; sourceTree = "<group>"; };
+		AD3E88AF1FC54D4C00598212 /* WHLAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLAccessibility.m; sourceTree = "<group>"; };
+		AD3E89791FC59E2900598212 /* WHLApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLApplication.h; sourceTree = "<group>"; };
+		AD3E897E1FC59E2900598212 /* WHLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLCache.m; sourceTree = "<group>"; };
+		AD3E89871FC59E2A00598212 /* WHLColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLColor.h; sourceTree = "<group>"; };
+		AD3E89881FC59E2A00598212 /* WHLArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLArray.h; sourceTree = "<group>"; };
+		AD3E898C1FC59E2B00598212 /* WHLData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLData.h; sourceTree = "<group>"; };
+		AD3E898E1FC59E2B00598212 /* WHLApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLApplication.m; sourceTree = "<group>"; };
+		AD3E89921FC59E2C00598212 /* WHLData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLData.m; sourceTree = "<group>"; };
+		AD3E89971FC59E2D00598212 /* WHLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLCache.h; sourceTree = "<group>"; };
+		AD3E899F1FC59E2E00598212 /* WHLArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLArray.m; sourceTree = "<group>"; };
+		AD3E89A01FC59E2E00598212 /* WHLColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLColor.m; sourceTree = "<group>"; };
+		AD3E89D01FC5A13300598212 /* WHLGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLGeometry.m; sourceTree = "<group>"; };
+		AD3E89D21FC5A13400598212 /* WHLGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLGeometry.h; sourceTree = "<group>"; };
+		AD3E89D61FC5A1D700598212 /* WHLDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHLDefines.h; sourceTree = "<group>"; };
+		AD53CCFC20562CD600430026 /* WHLMaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLMaths.h; sourceTree = "<group>"; };
+		AD53CCFD20562CD600430026 /* WHLMaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLMaths.m; sourceTree = "<group>"; };
+		AD53CD212056703F00430026 /* WHLLayoutConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHLLayoutConstraint.h; sourceTree = "<group>"; };
+		AD53CD222056703F00430026 /* WHLLayoutConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHLLayoutConstraint.m; sourceTree = "<group>"; };
+		AD5DF3B81FC670100023B593 /* WHLDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLDate.m; sourceTree = "<group>"; };
+		AD5DF3BA1FC670100023B593 /* WHLError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLError.h; sourceTree = "<group>"; };
+		AD5DF3BB1FC670100023B593 /* WHLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLDictionary.h; sourceTree = "<group>"; };
+		AD5DF3BC1FC670100023B593 /* WHLDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLDate.h; sourceTree = "<group>"; };
+		AD5DF3BD1FC670100023B593 /* WHLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLDictionary.m; sourceTree = "<group>"; };
+		AD5DF3BE1FC670100023B593 /* WHLError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLError.m; sourceTree = "<group>"; };
+		AD5DF3C91FC69BE40023B593 /* WHLInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLInvocation.h; sourceTree = "<group>"; };
+		AD5DF3CA1FC69BE40023B593 /* WHLInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLInvocation.m; sourceTree = "<group>"; };
+		AD5DF3CB1FC69BE40023B593 /* WHLNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLNib.h; sourceTree = "<group>"; };
+		AD5DF3CC1FC69BE40023B593 /* WHLScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLScreen.m; sourceTree = "<group>"; };
+		AD5DF3CD1FC69BE50023B593 /* WHLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLView.h; sourceTree = "<group>"; };
+		AD5DF3CE1FC69BE50023B593 /* WHLURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLURL.h; sourceTree = "<group>"; };
+		AD5DF3CF1FC69BE50023B593 /* WHLNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLNetwork.m; sourceTree = "<group>"; };
+		AD5DF3D01FC69BE50023B593 /* WHLScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLScreen.h; sourceTree = "<group>"; };
+		AD5DF3D11FC69BE50023B593 /* WHLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLString.m; sourceTree = "<group>"; };
+		AD5DF3D41FC69BE50023B593 /* WHLNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLNetwork.h; sourceTree = "<group>"; };
+		AD5DF3D51FC69BE60023B593 /* WHLNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLNib.m; sourceTree = "<group>"; };
+		AD5DF3D61FC69BE60023B593 /* WHLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLString.h; sourceTree = "<group>"; };
+		AD5DF3D71FC69BE60023B593 /* WHLURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLURL.m; sourceTree = "<group>"; };
+		AD5DF3D81FC69BE60023B593 /* WHLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLView.m; sourceTree = "<group>"; };
+		AD5DF3E91FC69C210023B593 /* WHLDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLDevice.h; sourceTree = "<group>"; };
+		AD5DF3EA1FC69C210023B593 /* WHLDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLDevice.m; sourceTree = "<group>"; };
+		AD5DF3ED1FC69C5F0023B593 /* WHLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLImage.m; sourceTree = "<group>"; };
+		AD5DF3EE1FC69C5F0023B593 /* WHLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLImage.h; sourceTree = "<group>"; };
+		AD5DF3F21FC6A1F00023B593 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		AD5DF3F31FC6A1F00023B593 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		AD5DF3FC1FC6A3620023B593 /* MCSMKeychainItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSMKeychainItem.m; sourceTree = "<group>"; };
+		AD5DF3FD1FC6A3620023B593 /* MCSMKeychainItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSMKeychainItem.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD3E887C1FC54D0100598212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD3E88761FC54D0100598212 = {
+			isa = PBXGroup;
+			children = (
+				AD3E88821FC54D0100598212 /* Wheel */,
+				AD3E88811FC54D0100598212 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD3E88811FC54D0100598212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD3E88801FC54D0100598212 /* Wheel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD3E88821FC54D0100598212 /* Wheel */ = {
+			isa = PBXGroup;
+			children = (
+				AD43B40B1FC6AD4E00F7A818 /* External */,
+				AD3E88831FC54D0100598212 /* Wheel.h */,
+				AD3E888E1FC54D4400598212 /* WHLAccessibility.h */,
+				AD3E88AF1FC54D4C00598212 /* WHLAccessibility.m */,
+				AD3E89791FC59E2900598212 /* WHLApplication.h */,
+				AD3E898E1FC59E2B00598212 /* WHLApplication.m */,
+				AD3E89881FC59E2A00598212 /* WHLArray.h */,
+				AD3E899F1FC59E2E00598212 /* WHLArray.m */,
+				AD3E89971FC59E2D00598212 /* WHLCache.h */,
+				AD3E897E1FC59E2900598212 /* WHLCache.m */,
+				AD3E89871FC59E2A00598212 /* WHLColor.h */,
+				AD3E89A01FC59E2E00598212 /* WHLColor.m */,
+				AD3E898C1FC59E2B00598212 /* WHLData.h */,
+				AD3E89921FC59E2C00598212 /* WHLData.m */,
+				AD5DF3BC1FC670100023B593 /* WHLDate.h */,
+				AD5DF3B81FC670100023B593 /* WHLDate.m */,
+				AD3E89D61FC5A1D700598212 /* WHLDefines.h */,
+				AD5DF3E91FC69C210023B593 /* WHLDevice.h */,
+				AD5DF3EA1FC69C210023B593 /* WHLDevice.m */,
+				AD5DF3BB1FC670100023B593 /* WHLDictionary.h */,
+				AD5DF3BD1FC670100023B593 /* WHLDictionary.m */,
+				AD5DF3BA1FC670100023B593 /* WHLError.h */,
+				AD5DF3BE1FC670100023B593 /* WHLError.m */,
+				AD3E89D21FC5A13400598212 /* WHLGeometry.h */,
+				AD3E89D01FC5A13300598212 /* WHLGeometry.m */,
+				AD5DF3EE1FC69C5F0023B593 /* WHLImage.h */,
+				AD5DF3ED1FC69C5F0023B593 /* WHLImage.m */,
+				AD5DF3C91FC69BE40023B593 /* WHLInvocation.h */,
+				AD5DF3CA1FC69BE40023B593 /* WHLInvocation.m */,
+				AD53CD212056703F00430026 /* WHLLayoutConstraint.h */,
+				AD53CD222056703F00430026 /* WHLLayoutConstraint.m */,
+				AD53CCFC20562CD600430026 /* WHLMaths.h */,
+				AD53CCFD20562CD600430026 /* WHLMaths.m */,
+				AD5DF3D41FC69BE50023B593 /* WHLNetwork.h */,
+				AD5DF3CF1FC69BE50023B593 /* WHLNetwork.m */,
+				AD5DF3CB1FC69BE40023B593 /* WHLNib.h */,
+				AD5DF3D51FC69BE60023B593 /* WHLNib.m */,
+				AD5DF3D01FC69BE50023B593 /* WHLScreen.h */,
+				AD5DF3CC1FC69BE40023B593 /* WHLScreen.m */,
+				AD5DF3D61FC69BE60023B593 /* WHLString.h */,
+				AD5DF3D11FC69BE50023B593 /* WHLString.m */,
+				AD5DF3CE1FC69BE50023B593 /* WHLURL.h */,
+				AD5DF3D71FC69BE60023B593 /* WHLURL.m */,
+				AD5DF3CD1FC69BE50023B593 /* WHLView.h */,
+				AD5DF3D81FC69BE60023B593 /* WHLView.m */,
+				AD3E88841FC54D0100598212 /* Info.plist */,
+			);
+			path = Wheel;
+			sourceTree = "<group>";
+		};
+		AD43B40B1FC6AD4E00F7A818 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DF3FB1FC6A34A0023B593 /* MCSMKeychainItem */,
+				AD5DF3F11FC6A1D40023B593 /* Reachability */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		AD5DF3F11FC6A1D40023B593 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DF3F21FC6A1F00023B593 /* Reachability.h */,
+				AD5DF3F31FC6A1F00023B593 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		AD5DF3FB1FC6A34A0023B593 /* MCSMKeychainItem */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DF3FD1FC6A3620023B593 /* MCSMKeychainItem.h */,
+				AD5DF3FC1FC6A3620023B593 /* MCSMKeychainItem.m */,
+			);
+			path = MCSMKeychainItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AD3E887D1FC54D0100598212 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3E88851FC54D0100598212 /* Wheel.h in Headers */,
+				AD5DF3C41FC670110023B593 /* WHLDate.h in Headers */,
+				AD3E89BA1FC59E2F00598212 /* WHLData.h in Headers */,
+				AD3E89B61FC59E2F00598212 /* WHLArray.h in Headers */,
+				AD5DF3C21FC670110023B593 /* WHLError.h in Headers */,
+				AD5DF3EB1FC69C210023B593 /* WHLDevice.h in Headers */,
+				AD5DF3DE1FC69BE60023B593 /* WHLURL.h in Headers */,
+				AD53CD232056703F00430026 /* WHLLayoutConstraint.h in Headers */,
+				AD5DF3DD1FC69BE60023B593 /* WHLView.h in Headers */,
+				AD5DF3DB1FC69BE60023B593 /* WHLNib.h in Headers */,
+				AD5DF3E01FC69BE60023B593 /* WHLScreen.h in Headers */,
+				AD5DF3E61FC69BE60023B593 /* WHLString.h in Headers */,
+				AD5DF3D91FC69BE60023B593 /* WHLInvocation.h in Headers */,
+				AD5DF3E41FC69BE60023B593 /* WHLNetwork.h in Headers */,
+				AD5DF3F01FC69C5F0023B593 /* WHLImage.h in Headers */,
+				AD3E89A71FC59E2F00598212 /* WHLApplication.h in Headers */,
+				AD5DF3C31FC670110023B593 /* WHLDictionary.h in Headers */,
+				AD3E89B51FC59E2F00598212 /* WHLColor.h in Headers */,
+				AD3E89D51FC5A13400598212 /* WHLGeometry.h in Headers */,
+				AD3E89C51FC59E2F00598212 /* WHLCache.h in Headers */,
+				AD3E88BE1FC54D5500598212 /* WHLAccessibility.h in Headers */,
+				AD53CD0020562CD600430026 /* WHLMaths.h in Headers */,
+				AD15F0631FC6BFCE008F8DB6 /* WHLDefines.h in Headers */,
+				AD5DF3FF1FC6A3630023B593 /* MCSMKeychainItem.h in Headers */,
+				AD5DF3F41FC6A1F00023B593 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AD3E887F1FC54D0100598212 /* Wheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD3E88881FC54D0100598212 /* Build configuration list for PBXNativeTarget "Wheel" */;
+			buildPhases = (
+				AD3E887B1FC54D0100598212 /* Sources */,
+				AD3E887C1FC54D0100598212 /* Frameworks */,
+				AD3E887D1FC54D0100598212 /* Headers */,
+				AD3E887E1FC54D0100598212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wheel;
+			productName = Wheel;
+			productReference = AD3E88801FC54D0100598212 /* Wheel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD3E88771FC54D0100598212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ZAKER;
+				TargetAttributes = {
+					AD3E887F1FC54D0100598212 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AD3E887A1FC54D0100598212 /* Build configuration list for PBXProject "Wheel" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD3E88761FC54D0100598212;
+			productRefGroup = AD3E88811FC54D0100598212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD3E887F1FC54D0100598212 /* Wheel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD3E887E1FC54D0100598212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD3E887B1FC54D0100598212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5DF3EF1FC69C5F0023B593 /* WHLImage.m in Sources */,
+				AD5DF3C51FC670110023B593 /* WHLDictionary.m in Sources */,
+				AD3E89BC1FC59E2F00598212 /* WHLApplication.m in Sources */,
+				AD3E89AC1FC59E2F00598212 /* WHLCache.m in Sources */,
+				AD5DF3EC1FC69C210023B593 /* WHLDevice.m in Sources */,
+				AD5DF3E81FC69BE60023B593 /* WHLView.m in Sources */,
+				AD5DF3DA1FC69BE60023B593 /* WHLInvocation.m in Sources */,
+				AD5DF3E51FC69BE60023B593 /* WHLNib.m in Sources */,
+				AD5DF3C01FC670110023B593 /* WHLDate.m in Sources */,
+				AD3E89C01FC59E2F00598212 /* WHLData.m in Sources */,
+				AD5DF3F51FC6A1F00023B593 /* Reachability.m in Sources */,
+				AD3E89CD1FC59E2F00598212 /* WHLArray.m in Sources */,
+				AD53CD0120562CD600430026 /* WHLMaths.m in Sources */,
+				AD5DF3E71FC69BE60023B593 /* WHLURL.m in Sources */,
+				AD53CD242056703F00430026 /* WHLLayoutConstraint.m in Sources */,
+				AD5DF3E11FC69BE60023B593 /* WHLString.m in Sources */,
+				AD3E88DF1FC54D5500598212 /* WHLAccessibility.m in Sources */,
+				AD3E89CE1FC59E2F00598212 /* WHLColor.m in Sources */,
+				AD5DF3DF1FC69BE60023B593 /* WHLNetwork.m in Sources */,
+				AD5DF3C61FC670110023B593 /* WHLError.m in Sources */,
+				AD5DF3DC1FC69BE60023B593 /* WHLScreen.m in Sources */,
+				AD5DF3FE1FC6A3630023B593 /* MCSMKeychainItem.m in Sources */,
+				AD3E89D31FC5A13400598212 /* WHLGeometry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD3E88861FC54D0100598212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD3E88871FC54D0100598212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD3E88891FC54D0100598212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QGPQ7M858P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 2;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Wheel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zaker.Wheel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AD3E888A1FC54D0100598212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QGPQ7M858P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 2;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Wheel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zaker.Wheel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B072F4D220623359007512CD /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Adhoc;
+		};
+		B072F4D320623359007512CD /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QGPQ7M858P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 2;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Wheel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zaker.Wheel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Adhoc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD3E887A1FC54D0100598212 /* Build configuration list for PBXProject "Wheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3E88861FC54D0100598212 /* Debug */,
+				AD3E88871FC54D0100598212 /* Release */,
+				B072F4D220623359007512CD /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD3E88881FC54D0100598212 /* Build configuration list for PBXNativeTarget "Wheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3E88891FC54D0100598212 /* Debug */,
+				AD3E888A1FC54D0100598212 /* Release */,
+				B072F4D320623359007512CD /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD3E88771FC54D0100598212 /* Project object */;
+}
